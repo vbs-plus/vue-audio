@@ -1,0 +1,27 @@
+{
+  "name": "@vbs/vue-audio",
+  "version": "0.2.0",
+  "description": "",
+  "main": "lib/index.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node script.js && rollup -c",
+    "build:patch": "node script.js && rollup -c && npm version patch"
+  },
+  "keywords": [
+    "vue-audio",
+    "audio",
+    "可视化音频",
+    "音乐播放器"
+  ],
+  "author": "zhangxianglong",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.16",
+    "rollup": "^2.79.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.5.2",
+    "wavesurfer.js": "^6.4.0"
+  }
+}
